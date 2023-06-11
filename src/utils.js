@@ -9,7 +9,7 @@ export default __dirname;
 export async function connectMongo() {
   try {
     await connect(
-      "mongodb+srv://lautaronehuensettembrini:Pancha1776@cluster1.uw9ykgh.mongodb.net/?retryWrites=true&w=majority"
+      "mongodb+srv://lautaronehuensettembrini:<password>@cluster1.uw9ykgh.mongodb.net/?retryWrites=true&w=majority"
     );
     console.log("conectar a MongoDB");
   } catch (e) {
